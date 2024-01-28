@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+    background-color: rgb(255, 244, 245);
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+td,
+th {
+    border: 1px solid #b1b1b1;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffdef3;
+}
+
+h1 {
+    color: rgb(170, 82, 170);
+    text-align: center;
+    font-size: xx-large;
+}
+
+div {
+    font-style: bold;
+    font-size: larger;
+}
