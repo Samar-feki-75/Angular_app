@@ -9,7 +9,6 @@ const baseUrl = 'https://retoolapi.dev/HYd96h/data';
   providedIn: 'root'
 })
 export class DataService {
-
   constructor(private http: HttpClient) { }
 
   getAll(): Observable<Employer[]> {
